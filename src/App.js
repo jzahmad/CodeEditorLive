@@ -21,7 +21,7 @@ function App() {
             </div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/CodeEditorLive" element={<Home />}></Route>
                     <Route
                         path="/editor/:roomId"
                         element={<EditorPage />}
